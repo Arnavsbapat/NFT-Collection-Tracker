@@ -1,0 +1,16 @@
+
+[package]
+name = "NFTCollectionTracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+NFTCollectionTracker = '0xde5f52f8c84ff554f5c7cb26cbf12c1043b0fc562285e1866cee79593052d012'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
